@@ -10,7 +10,6 @@
       <meta http-equiv="Cache-Control" content="max-age=3600" />
 
     <title>Guglielmo Saggiorato</title>
-    <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
     <!-- <link rel="stylesheet"
         type="text/css"
         href="files/bootstrap.min.css" /> -->
@@ -49,12 +48,16 @@
             text-align:center;
             border-top:.5px #dddddd solid;
         }
+        dl{display: block;
+        padding:.5em;
+        margin-top: .5em;
+        border-left: 1ex #ffa500 solid;
+        border-radius: .5ex}
         @media (max-width:992px){
-            /*body{font-size: 90%;}*/
-            blockquote{font-size:100%;}
-            .social{border: 0px;display: inline;}
+            h2,h3,h4,h5,h6{text-align: center;}
+            .social{border: 0px;display:inline-table;}
             h1{display: inline;}
-            .profile{display: inline;width: 20%;padding-bottom: .5em;}
+            .profile{display: inline;width: 64px;padding-bottom: .5em;}
         }
     </style>
   </head>
@@ -68,13 +71,12 @@
 
         <h1>Dr. Guglielmo Saggiorato </h1>
         <address class="hidden-sm hidden-xs">
-
         <a href="http://lptms.u-psud.fr/en">Laboratory of Theoretical Physics and Statistical Models (LPTMS)</a><br/>
         B&acirc;timent 100 <br/>
         15, Rue Georges Clemenceau<br/>
         91405 Orsay, France<br/>
         </address>
-        <p class='social'>
+        <p class='social hidden-xs'>
             <a href="https://github.com/astyonax"  rel="noopener" target="_blank"  aria-label="github"><i class="fa fa-github" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/gsaggiorato/"  rel="noopener" target="_blank"  aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
@@ -84,11 +86,14 @@
       <!-- .................................. -->
 
       <div class="col-md-7">
-        <blockquote>
-          - Postdoc in <a href="http://lptms.u-psud.fr/membres/mlenz/"  rel="noopener" target="_blank" >Martin Lenz's group</a> <br/>
-          - PhD in Physics, University of Cologne and Forschungszentrum J&uuml;lich<br/>
-          - BSc and MSc in Physics, University of Padova<br/>
-        </blockquote>
+        <dl>
+          <dt>Postdoc in <a href="http://lptms.u-psud.fr/membres/mlenz/"  rel="noopener" target="_blank" >Martin Lenz's group</a></dt>
+          <dd>Non linear elasticity and cytoskeleton</dd>
+          <dt>PhD in Physics, University of Cologne and Forschungszentrum J&uuml;lich</dt>
+          <dd>Sperm dynamics and hydrodynamics of elastic slender bodies</dd>
+          <dt>BSc and MSc in Physics, University of Padova</dt>
+          <dd>Single-file diffusion and fractional Brownian motion</dd>
+      </dl>
         <h2 id='upcoming'>Upcoming</h2>
             <a href="http://www.lcqb.upmc.fr/parisyoung/2017/"  rel="noopener" target="_blank" >
             <button class="btn btn-warning btn-block btn-lg" type=button>Paris Biological Physics Community Day 2017</button>
