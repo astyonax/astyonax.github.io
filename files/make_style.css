@@ -1,0 +1,1 @@
+purifycss -i -m -o files/style.css  files/bootstrap.min.css index.html
