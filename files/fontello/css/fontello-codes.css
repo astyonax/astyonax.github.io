@@ -2,5 +2,6 @@
 .fo-google-scholar:before { content: '\e828'; } /* '' */
 .fo-orcid:before { content: '\e840'; } /* '' */
 .fo-orcid-square:before { content: '\e841'; } /* '' */
+.fo-twitter:before { content: '\f099'; } /* '' */
 .fo-github-circled:before { content: '\f09b'; } /* '' */
 .fo-linkedin-squared:before { content: '\f30c'; } /* '' */
